@@ -1,0 +1,1 @@
+This is a file interceptor code without UI, you can take this and add UI too. This code inspects unencrypted HTTP traffic and monitor for specific executable file download requests. Upon detecting a matching request, it dynamically modifies the network packet to inject an HTTP 302 redirect, instructing the victim to download an alternative file instead.
